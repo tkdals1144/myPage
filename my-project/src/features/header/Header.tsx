@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 const Header = () => {
     return (
         <header>
-            <Link className={styles.link} to="/">
+            <Link className={styles.link2} to="/">
                 Home
             </Link>
             <div className={styles.navbar}>
@@ -15,7 +15,7 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link className={styles.link} to="/link">
+                        <Link className={styles.link} to="/about">
                             About
                         </Link>
                     </li>

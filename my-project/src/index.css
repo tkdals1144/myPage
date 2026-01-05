@@ -11,11 +11,12 @@ header {
     justify-content: space-between;
     padding: 0 80px;
     align-items: center;
-    background-color: lightsalmon;
+    background-color: #f0f0f0;
     height: 70px;
     position: sticky;
+    border-bottom: 3px solid rgb(187, 185, 185);
     top: 0;
-    z-index: 100;
+    z-index: 1000;
 }
 footer {
     height: 240px;

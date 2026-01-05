@@ -2,17 +2,21 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    position: relative;
 }
+
 .banner {
-    width: 2000px;
-    height: 900px;
+    /* width: 2000px; */
+    /* height: 900px; */
+    width: 205vh;
+    height: 90vh;
     overflow: hidden;
 }
 .banner_ul {
     display: flex;
     list-style: none;
-    width: 10000px;
-    height: 900px;
+    width: 1020vh;
+    height: 90vh;
 }
 @keyframes bannerAni1 {
     0%,
@@ -21,15 +25,15 @@
     }
     25%,
     40% {
-        transform: translateX(-2000px);
+        transform: translateX(-205vh);
     }
     50%,
     65% {
-        transform: translateX(-4000px);
+        transform: translateX(-410vh);
     }
     75%,
     90% {
-        transform: translateX(-6000px);
+        transform: translateX(-615vh);
     }
     100% {
         transform: translateX(0);
@@ -48,25 +52,6 @@
     position: relative;
 }
 .banner_img img {
-    width: 2000px;
-    height: 900px;
-}
-.banner_p {
-    position: relative;
-    text-align: right;
-    right: 280px;
-    bottom: 200px;
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 65px;
-}
-.title {
-    text-align: center;
-    padding-top: 100px;
-    font-size: 40px;
-}
-.title2 {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 19px;
-    padding-bottom: 200px;
+    width: 205vh;
+    height: 90vh;
 }
