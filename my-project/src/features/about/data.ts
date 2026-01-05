@@ -40,7 +40,7 @@ export const educations = [
 export const skills = [
     {
         label: "frontend",
-        skill: ["React (SPA)", "Thymeleaf (SSR)", "CSS", "Vanilla js (ES6+)", "Jquery"],
+        skill: ["React (SPA)", "Thymeleaf (SSR)", "CSS", "Vanilla js (ES6+)", "jquery"],
     },
     { label: "backend", skill: ["Java", "Spring / Springboot", "Jsp & Servlet (Legacy)", "MyBatis"] },
     { label: "database", skill: ["mySQL", "Oracle"] },
