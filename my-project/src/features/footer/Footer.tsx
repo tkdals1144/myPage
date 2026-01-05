@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
-const items = ["/plus/footer_phone.svg", "/plus/footer_mail.svg", "/plus/footer_talk.svg"];
+const items = [
+    `${import.meta.env.BASE_URL}plus/footer_phone.svg`,
+    `${import.meta.env.BASE_URL}plus/footer_mail.svg`,
+    `${import.meta.env.BASE_URL}plus/footer_talk.svg`,
+];
 const texts = ["010-2282-7617", "rioran@naver.com", "Yoritokk"];
 
 const Footer = () => {
@@ -10,7 +14,11 @@ const Footer = () => {
                 <div className={styles.footer_ul_wrap}>
                     <ul className={styles.footer_list_wrap}>
                         <li className={`${styles.footer_list} ${styles.footer_link}`} id={styles.footer_info}>
-                            <img src="/plus/footer_info.svg" alt="" className={styles.footer_icon} />
+                            <img
+                                src={`${import.meta.env.BASE_URL}/plus/footer_info.svg`}
+                                alt=""
+                                className={styles.footer_icon}
+                            />
                             <Link id={styles.footer_info_anchor} className={styles.footer_paragraph} to="/about">
                                 About Me
                             </Link>
@@ -20,7 +28,11 @@ const Footer = () => {
                             id={styles.footer_git}
                             onClick={() => window.open("https://github.com/tkdals1144")}
                         >
-                            <img src="/plus/footer_git.svg" alt="" className={styles.footer_icon} />
+                            <img
+                                src={`${import.meta.env.BASE_URL}/plus/footer_git.svg`}
+                                alt=""
+                                className={styles.footer_icon}
+                            />
                             <p className={styles.footer_paragraph}>GitHub</p>
                         </li>
                     </ul>

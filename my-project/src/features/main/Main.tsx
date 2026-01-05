@@ -1,5 +1,10 @@
 import styles from "./Main.module.css";
-const images = ["/images/image01.jpg", "/images/image02.jpg", "/images/image03.jpg", "/images/image04.jpg"];
+const images = [
+    `${import.meta.env.BASE_URL}images/image01.jpg`,
+    `${import.meta.env.BASE_URL}images/image02.jpg`,
+    `${import.meta.env.BASE_URL}images/image03.jpg`,
+    `${import.meta.env.BASE_URL}images/image04.jpg`,
+];
 const Main = () => {
     return (
         <>

@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div style={{ backgroundColor: "white", position: "relative", overflowY: "scroll" }}>
             <h1 className={styles.name_tag}>이상민</h1>
-            <img className={styles.profile_img} src="/profile/profile.jpg" />
+            <img className={styles.profile_img} src={`${import.meta.env.BASE_URL}/profile/profile.jpg`} />
             <ul className={styles.info_box}>
                 {profiles.map((item) => (
                     <li className={styles.profile_info_wrap}>

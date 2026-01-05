@@ -1,11 +1,29 @@
 export const profiles = [
-    { icon: "/plus/profile_img1.svg", info: "1999.11.14" },
-    { icon: "/plus/profile_img2.svg", info: "경기도 구리시 검배로 142" },
-    { icon: "/plus/profile_img3.svg", info: "rioran@naver.com" },
+    {
+        icon: `${import.meta.env.BASE_URL}plus/profile_img1.svg`,
+        info: "1999.11.14",
+    },
+    {
+        icon: `${import.meta.env.BASE_URL}plus/profile_img2.svg`,
+        info: "경기도 구리시 검배로 142",
+    },
+    {
+        icon: `${import.meta.env.BASE_URL}plus/profile_img3.svg`,
+        info: "rioran@naver.com",
+    },
 ];
+
 export const files = [
-    { label: "이력서.pdf", fileName: "이상민_이력서", url: "/files/file1.pdf" },
-    { label: "포트폴리오.pdf", fileName: "이상민_포트폴리오", url: "/files/file1.pdf" },
+    {
+        label: "이력서.pdf",
+        fileName: "이상민_이력서",
+        url: `${import.meta.env.BASE_URL}files/file1.pdf`,
+    },
+    {
+        label: "포트폴리오.pdf",
+        fileName: "이상민_포트폴리오",
+        url: `${import.meta.env.BASE_URL}files/file1.pdf`,
+    },
 ];
 export const educations = [
     {
