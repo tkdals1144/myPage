@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Header from "./features/header";
 import Main from "./features/main";
 import Footer from "./features/footer";
@@ -10,6 +10,7 @@ function App() {
             <main>
                 <Routes>
                     <Route path="/" element={<Main />} />
+                    <Route path="/myPage" element={<Navigate to="/" replace />} />
                     <Route path="/about" element={<About />} />
                 </Routes>
             </main>
