@@ -1,0 +1,40 @@
+.project_wrap_wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.porject_wrap {
+    border: 1px solid black;
+    padding: 5vh 10vh;
+    width: 80vh;
+    height: auto;
+}
+
+.project_type {
+    display: flex;
+    list-style: none;
+    border-bottom: 0.2vh solid rgba(148, 147, 147, 1);
+    box-sizing: border-box;
+}
+
+.project_num {
+    padding: 1vh 2vh;
+    border: 0.2vh solid rgba(148, 147, 147, 1);
+    border-bottom: 0;
+    cursor: pointer;
+    font-size: 1.8vh;
+}
+
+.project_num_active {
+    border-bottom: 0.2vh solid white;
+    margin-bottom: -0.2vh;
+    background-color: white;
+    z-index: 1;
+}
+
+.project_num_invalid {
+    border: 0.2vh solid white;
+}

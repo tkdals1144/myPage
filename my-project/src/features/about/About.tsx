@@ -18,7 +18,7 @@ const About = () => {
             <ul className={styles.file_box}>
                 {files.map((item) => (
                     <li className={styles.file_list}>
-                        <img className={styles.file_img} src={`${import.meta.env.BASE_URL}/plus/file_img.svg`} />
+                        <img className={styles.file_img} src={item.fileImg} />
                         <a href={item.url} className={styles.file_txt} download={item.fileName}>
                             {item.label}
                         </a>

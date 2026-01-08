@@ -1,5 +1,5 @@
 .name_tag {
-    padding: 14vh 0 6vh 68vh;
+    padding: 14vh 0 6vh 36%;
     color: white;
     font-weight: bold;
     background-color: rgb(75, 55, 55);
@@ -10,18 +10,16 @@
 .profile_img {
     position: absolute;
     z-index: 200;
-    width: 37.5vh;
-    height: 48vh;
-    /* width: 375px;
-    height: 480px; */
-    border: 1px solid black;
+    width: 33.5vh;
+    height: 47.5vh;
+    border: 0.15vh solid black;
     top: 6vh;
     left: 14%;
 }
 
 .info_box {
     margin-top: 2%;
-    padding-left: 39%;
+    padding-left: 36%;
 }
 
 .profile_info_wrap {
@@ -43,10 +41,10 @@
 
 .file_box {
     position: absolute;
-    right: 10%;
+    right: 24%;
     top: 38vh;
     border: 0.25vh solid black;
-    border-radius: 5px;
+    border-radius: 1vh;
     padding: 1.4vh 3vh 1.4vh 2vh;
     list-style: none;
     background-color: white;
@@ -135,4 +133,5 @@
 .skill_list {
     margin: 1vh 0;
     font-weight: 500;
+    font-size: 1.7vh;
 }

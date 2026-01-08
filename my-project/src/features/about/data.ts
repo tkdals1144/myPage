@@ -17,12 +17,14 @@ export const files = [
     {
         label: "이력서.pdf",
         fileName: "이상민_이력서",
+        fileImg: `${import.meta.env.BASE_URL}/plus/file_img.svg`,
         url: `${import.meta.env.BASE_URL}files/file1.pdf`,
     },
     {
         label: "포트폴리오.pdf",
         fileName: "이상민_포트폴리오",
-        url: `${import.meta.env.BASE_URL}files/file1.pdf`,
+        fileImg: `${import.meta.env.BASE_URL}/plus/file_img.svg`,
+        url: `${import.meta.env.BASE_URL}files/file2.pdf`,
     },
 ];
 export const educations = [

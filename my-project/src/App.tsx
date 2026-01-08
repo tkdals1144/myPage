@@ -1,8 +1,5 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import Header from "./features/header";
-import Main from "./features/main";
-import Footer from "./features/footer";
-import About from "./features/about";
+import { Header, Main, Footer, About, Project } from "./features";
 function App() {
     return (
         <>
@@ -11,6 +8,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Main />} />
                     <Route path="/myPage" element={<Navigate to="/" replace />} />
+                    <Route path="/project" element={<Project />} />
                     <Route path="/about" element={<About />} />
                 </Routes>
             </main>
