@@ -7,7 +7,6 @@
 }
 
 .porject_wrap {
-    border: 1px solid black;
     padding: 5vh 10vh;
     width: 80vh;
     height: auto;
@@ -16,13 +15,13 @@
 .project_type {
     display: flex;
     list-style: none;
-    border-bottom: 0.2vh solid rgba(148, 147, 147, 1);
+    border-bottom: 0.2vh solid rgba(148, 147, 147, 0.6);
     box-sizing: border-box;
 }
 
 .project_num {
     padding: 1vh 2vh;
-    border: 0.2vh solid rgba(148, 147, 147, 1);
+    border: 0.2vh solid rgba(148, 147, 147, 0.6);
     border-bottom: 0;
     cursor: pointer;
     font-size: 1.8vh;
@@ -37,4 +36,64 @@
 
 .project_num_invalid {
     border: 0.2vh solid white;
+}
+
+.project_img_wrap {
+    margin: 3vh 0;
+    width: 100%;
+}
+
+.project_img {
+    width: 100%;
+}
+
+.title_wrap {
+    display: flex;
+    align-items: end;
+}
+
+.title {
+    font-size: 3.5vh;
+    margin: 1vh 0;
+}
+
+.outline {
+    margin-bottom: 1.5vh;
+    margin-left: 1vh;
+    font-size: 2vh;
+}
+
+.explain {
+    margin: 2vh 0;
+    font-size: 1.7vh;
+}
+
+.skill_wrap {
+    margin-top: 7vh;
+}
+
+.skill_ul {
+    margin: 2vh 0;
+}
+
+.skill_li {
+    list-style-position: inside;
+    margin: 1vh 0;
+    font-size: 1.8vh;
+}
+
+.file_wrap {
+    display: flex;
+    justify-content: right;
+    margin-top: 0.5vh;
+}
+
+.file {
+    text-decoration: none;
+    color: rgba(171, 171, 221, 0.7);
+}
+
+.file:hover {
+    text-decoration: underline;
+    color: rgba(171, 171, 221, 1);
 }
